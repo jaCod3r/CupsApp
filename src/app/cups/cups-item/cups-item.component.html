@@ -1,0 +1,19 @@
+<div class="mdl-card mdl-shadow--4dp">
+  <div class="mdl-card__title mdl-card--border">
+    <h2 class="mdl-card__title-text">{{cup.name}}</h2>
+  </div>
+  <div>
+    <img src="https://via.placeholder.com/250" routerLink="/cups/detail">
+  </div>
+  <div class="mdl-card__supporting-text">
+    The cup size is: {{cup.size}}
+  </div>
+  <div class="mdl-card__actions mdl-card--border ">
+    <a id="delete" class="mdl-button mdl-js-button mdl-js-ripple-effect" (click)="alertBox()">
+      Delete
+    </a>
+    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+      Edit
+    </a>
+  </div>
+</div>
