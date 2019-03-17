@@ -36,3 +36,5 @@ Uses reactive forms using the formbuilder.
 1. Create a new cup
 2. Delete a cup
 3. Update a cup
+
+Next steps CRUD operations is to have a API and then use the HTTPClient to `post`, `put`, `delete`
