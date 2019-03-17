@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { Cup } from '../cup';
 
 @Component({
   selector: 'app-cups-item',
@@ -7,7 +8,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class CupsItemComponent implements OnInit {
 
-  @Input() cup: any;
+  @Input() cup: Cup;
 
   constructor() { }
 

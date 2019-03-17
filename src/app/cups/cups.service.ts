@@ -28,15 +28,8 @@ export class CupsService {
   ]
 
 
-  public getCups(): any[] {
+  public getCups(): Cup[] {
     return this.cups;
   }
 
-  // public getCupById(cupId: string) {
-  //   const foundCup = this.cups.find((cup) => {
-  //     return cup.id === cupId;
-  //   })
-
-  //   return foundCup;
-  // }
 }

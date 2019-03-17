@@ -4,18 +4,20 @@ import { CommonModule } from '@angular/common';
 import { CupsRoutingModule } from './cups-routing.module';
 import { CupsItemComponent } from './cups-item/cups-item.component';
 import { CupsListComponent } from './cups-list/cups-list.component';
-import { CupsDetailComponent } from './cups-detail/cups-detail.component';
 import { CupsService } from './cups.service';
+import { CupsAddComponent } from './cups-add/cups-add.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     CupsItemComponent,
     CupsListComponent,
-    CupsDetailComponent,
+    CupsAddComponent,
   ],
   imports: [
     CommonModule,
-    CupsRoutingModule
+    CupsRoutingModule,
+    FormsModule
   ],
   providers: [
     CupsService

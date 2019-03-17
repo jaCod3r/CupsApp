@@ -2,10 +2,13 @@
   display: flex;
   margin: auto;
   flex-direction: column;
-  align-items: center;
   width: 400px;
   vertical-align: middle;
   transform: translateY(70%);
+}
+
+.mdl-textfield {
+  margin-left: 10px;
 }
 
 .title {
@@ -13,6 +16,6 @@
 }
 
 .mdl-button {
-  margin-right: 25px;
+  margin-left: 12px;
   margin-bottom: 20px;
 }
