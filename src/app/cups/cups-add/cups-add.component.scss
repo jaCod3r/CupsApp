@@ -2,20 +2,25 @@
   display: flex;
   margin: auto;
   flex-direction: column;
-  width: 400px;
+  justify-content: center;
+  height: 350px;
+  width: 450px;
   vertical-align: middle;
-  transform: translateY(70%);
+  padding-left: 30px;
 }
 
 .mdl-textfield {
   margin-left: 10px;
 }
 
-.title {
-  margin-top: 20px;
-}
-
 .mdl-button {
   margin-left: 12px;
   margin-bottom: 20px;
+}
+
+header {
+  text-align: center;
+  font-size: 36px;
+  margin: 100px auto;
+  letter-spacing: 2px;
 }

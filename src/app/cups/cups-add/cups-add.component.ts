@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CupsAddComponent implements OnInit {
 
+  formData: any = {};
+
   constructor() { }
 
   ngOnInit() {

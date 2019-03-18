@@ -1,21 +1,22 @@
-<form action="#" class="container mdl-card mdl-shadow--4dp">
-  <div class="mdl-textfield">Add a new cup!</div>
+<header>Add a new cup!</header>
+<form #addCupForm="ngForm" class="container mdl-card mdl-shadow--4dp">
   <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-    <input class="mdl-textfield__input" type="text" name="title">
+    <input class="mdl-textfield__input" type="text" [(ngModel)]="formData.title" name="title">
     <label class="mdl-textfield__label" for="sample3">Title</label>
   </div>
   <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-    <input class="mdl-textfield__input" type="text" name="size">
+    <input class="mdl-textfield__input" type="text" [(ngModel)]="formData.size" name="size">
     <label class="mdl-textfield__label" for="sample3">Size of the Cup</label>
   </div>
   <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-    <input class="mdl-textfield__input" type="text" name="image">
+    <input class="mdl-textfield__input" type="text" [(ngModel)]="formData.image" name="image">
     <label class="mdl-textfield__label" for="sample3">Image Link</label>
   </div>
 
   <div>
     <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" routerLink="/cups">Cancel</button>
     <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" type="reset">Clear</button>
-    <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored"> Add New Cup </button>
+    <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" [disabled]="!addCupForm.form.valid">
+      Add New Cup </button>
   </div>
 </form>

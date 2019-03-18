@@ -5,7 +5,6 @@
   align-items: center;
   width: 400px;
   vertical-align: middle;
-  transform: translateY(70%);
 }
 
 .title {
@@ -15,4 +14,11 @@
 .mdl-button {
   margin-right: 25px;
   margin-bottom: 20px;
+}
+
+header {
+  text-align: center;
+  font-size: 36px;
+  margin: 100px auto;
+  letter-spacing: 2px;
 }
