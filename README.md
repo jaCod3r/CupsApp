@@ -34,8 +34,7 @@ Uses reactive forms using the formbuilder.
 6. Step up Add Cup Component to use Template Driven Form 
 
 ### Missing Features
-1. Create a new cup
-2. Delete a cup
-3. Update a cup
+1. Modal popup so user can edit cup 
+2. Create, Update and Delete missing
 
-Next steps is to have an API to preform CRUD operations using the HTTPClient to `post`, `put`, `delete`
+The only way I see doing the CRUD operations is to have an API and using the HTTPClient to `post`, `put`, `delete`
