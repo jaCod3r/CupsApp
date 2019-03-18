@@ -1,5 +1,10 @@
 # CupsApp
 
+## To run the app 
+1. `git clone git@github.com:jaCod3r/CupsApp.git`
+2. `npm install`
+3. `ng s`
+
 ## 2 modules
 
 ### Cup Module - 3 Main Components
